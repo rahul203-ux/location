@@ -3,7 +3,7 @@ import sqlite3
 from datetime import datetime
 
 location_bp = Blueprint("location_bp", __name__)
-DB_PATH = "backend/database.db"
+DB_PATH = "database.db"
 
 # Initialize database
 def init_db():

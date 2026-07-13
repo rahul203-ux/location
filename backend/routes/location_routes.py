@@ -51,3 +51,4 @@ def get_locations():
 
     locations = [{"latitude": row[0], "longitude": row[1], "timestamp": row[2]} for row in rows]
     return jsonify(locations), 200
+    
